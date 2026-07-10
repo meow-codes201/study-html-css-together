@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      video {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <video controls src="coding.mp4"></video>
+      <audio controls src="meeting.mp3"></audio>
+      <br />
+      <br />
+      <p>What is your favorite programming language?</p>
+      <label for="html">HTML</label>
+
+      <input type="radio" id="html" name="favorite" value="html" />
+      <br />
+      <label for="css">css</label>
+
+      <input type="radio" id="css" name="favorite" value="css" />
+
+      <br />
+      <label for="JS">JS</label>
+
+      <input type="radio" id="JS" name="favorite" value="js" />
+      <br />
+      <label for="react">react</label>
+
+      <input type="radio" id="react" name="favorite" value="react" />
+
+      <br />
+      <label for="node">node</label>
+
+      <input type="radio" id="node" name="favorite" />
+      <br />
+      <label for="express">express</label>
+
+      <input type="radio" id="express" name="favorite" />
+
+      <br />
+      <br />
+      <label for="range">Volume: </label>
+      <input type="range" name="range" id="range" min="0" max="100" />
+      <br />
+      <br />
+      <!-- FAV MOVIE -->
+      <label for="favmovie">Favorite Movie:</label>
+      <select name="favmovie" id="favmovie">
+        <option value="spiderman">Spiderman</option>
+        <option value="batman">Batman</option>
+        <option value="superman">Superman</option>
+      </select>
+      <br />
+      <br />
+      <label for="dob">DOB:</label>
+      <input id="dob" type="date" name="dob" />
+      <br />
+      <br />
+      <label for="file">Choose file:</label>
+      <input id="file" type="file" name="file" />
+      <br />
+      <br />
+      <label for="phone">Phone number:</label>
+      <input id="phone" type="number" name="phone" />
+      <br />
+      <br />
+      <label for="eid">Email:</label>
+      <input id="eid" type="email" name="eid" />
+      <br />
+      <br />
+      <label for="pwd">Password:</label>
+      <input id="pwd" type="password" name="pwd" />
+      <br />
+
+      <br />
+      <label for="cnfrm">Confirm Password:</label>
+      <input id="cnfrm" name="cnfrm" type="password" />
+      <br />
+      <br />
+      <label for="color">Color:</label>
+      <input id="color" type="color" name="color" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
