@@ -1,8 +1,16 @@
+.ctr {
+  background-color: pink;
+  width: 50vw;
+  height: 50vh;
+  /* relative to viewport or screen */
+}
 section {
   background-color: teal;
   font-size: 4em;
+  /* depends on html */
 }
 div {
   background-color: goldenrod;
   font-size: 4rem;
+  /* depends on html */
 }
