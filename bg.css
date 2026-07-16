@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+div {
+  padding: 40px;
+  height: 100vh;
+  filter: drop-shadow();
+  /* filter: contrast(2000%); */
+  /* filter: blur(2px); */
+  /* filter: grayscale(10%); */
+  /* filter: hue-rotate(135deg);*/
+
+  /* filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+  filter: brightness(0.9); */
+  background-image: url("waterfall.jpg");
+  filter: hue-rotate(130deg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  /* backdrop-filter: blur(12px) saturate(140%);  */
+  /* background-image:
+    linear-gradient(135deg, #4f46e5 0%, #ec4899 100%), url("waterfall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-color: green;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+}
+/* div { */
+/* Creates a circular glow radiating from the top center of the element */
+/* background-image: radial-gradient(
+    circle at top,
+    rgb(221, 15, 15),
+    transparent 70% */
+/* ); */
+/* background-image: conic-gradient(
+    #ff0055 0% 33%,
+    #0066cc 33% 66%,
+    #333333 66% 100%
+  );
+} */
+p {
+  backdrop-filter: blur(5px);
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 25px;
+  word-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  /* box-shadow: 5px 100px 5px #000000d0; */
+  filter: drop-shadow(15px 15px 5px rgba(0, 0, 0, 0.3));
+}
