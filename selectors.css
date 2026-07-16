@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+}
+
+.three {
+  margin: 10px 5px;
+  border: none;
+  color: slateblue;
+}
+.two {
+  filter: drop-shadow(8px 10px 8px rgba(105, 90, 205, 0.717));
+}
+.one {
+  font-family: Fleur de Leah;
+}
+#one {
+  border: none;
+  margin: 10px 5px;
+  background-image: linear-gradient(135deg, purple 0%, blue 100%);
+  color: white;
+  backdrop-filter: blur(5px);
+}
+div {
+  border: none;
+}
+div.text {
+  color: royalblue;
+  margin: 10px 5px;
+}
+p {
+  border: none;
+  margin: 10px 5px;
+  font-weight: bold;
+}
+div p {
+  font-weight: normal;
+}
