@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script:regular);
+@import url(https://fonts.googleapis.com/css?family=Fasthand:regular);
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: Fasthand;
+  color: purple;
+  font-size: 4rem;
+
+  /* $$\text{text-decoration: [line] [style] [color] [thickness];}$$CSS */
+  text-decoration: underline double hotpink 0.8rem;
+  font-style: italic;
+}
+a {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+}
+.p1 {
+  font-family: Pinyon Script;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600ch;
+  text-transform: capitalize;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  text-align: left;
+}
+.pp {
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  text-transform: lowercase;
+  text-align: right;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+.ppp {
+  text-decoration: line-through solid green 0.2rem;
+  text-underline-offset: 0.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.1;
+}
