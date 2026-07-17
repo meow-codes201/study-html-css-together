@@ -1,0 +1,22 @@
+p {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background-color: green;
+  display: inline-block;
+  /* display: none; */
+  /* visibility: hidden; */
+}
+span {
+  text-align: center;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: cadetblue;
+
+  margin: 5px;
+}
