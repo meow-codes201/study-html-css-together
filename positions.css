@@ -1,0 +1,29 @@
+.ctr {
+  background-color: #979796;
+  width: 900px;
+  height: 500px;
+}
+.d {
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  background-color: red;
+  position: relative;
+  left: 100px;
+  bottom: 20px;
+  top: 50px;
+}
+.two {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  background-color: hotpink;
+}
+.three {
+  position: sticky;
+  top: 60px;
+  /* position: fixed; */
+  background-color: purple;
+}
