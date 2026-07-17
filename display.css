@@ -7,8 +7,6 @@ p {
   border-radius: 10px;
   background-color: green;
   display: inline-block;
-  /* display: none; */
-  /* visibility: hidden; */
 }
 span {
   text-align: center;
@@ -19,4 +17,10 @@ span {
   background-color: cadetblue;
 
   margin: 5px;
+}
+.fa-headphones {
+  color: crimson;
+}
+.uil-flower {
+  color: violet;
 }
