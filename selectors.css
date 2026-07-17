@@ -37,3 +37,77 @@ p {
 div p {
   font-weight: normal;
 }
+
+div > p {
+  color: darkolivegreen;
+  text-decoration: underline solid darkolivegreen;
+  text-underline-offset: 1.5px;
+}
+div + p {
+  font-size: 1.5rem;
+
+  font-family: Fleur de Leah;
+}
+a[href="one"] {
+  border: none;
+  color: teal;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+img[alt="nature"] {
+  border: none;
+  margin: 10px 5px;
+  font-family: "Times New Roman", Times, serif;
+  width: 100px;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+a {
+  border: none;
+  margin-bottom: 50px;
+}
+.link:link {
+  color: darksalmon;
+}
+.visited:visited {
+  color: cadetblue;
+}
+.hover:hover {
+  cursor: pointer;
+  color: darkolivegreen;
+  border: 1px solid khaki;
+  padding: 10px 5px;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.4));
+}
+.active:active {
+  color: turquoise;
+}
+h1::before {
+  content: "🔥 ";
+}
+h1::after {
+  content: " 🚀";
+}
+h2::first-letter {
+  font-size: 2rem;
+}
+ul {
+  margin: 10px 5px;
+}
+li:first-child {
+  color: red;
+}
+li:last-child {
+  color: blue;
+}
+li:nth-child(2n) {
+  color: green;
+}
+H1 + P {
+  color: hotpink;
+}
+h1 ~ p {
+  color: rgb(1, 155, 140);
+}
