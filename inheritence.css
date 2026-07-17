@@ -1,0 +1,14 @@
+div {
+  color: hsl(248, 53%, 58%);
+  font-size: 1.5rem;
+  font-family: Pinyon Script;
+  text-shadow: 5px -3px 3px rgba(0, 0, 0, 0.546);
+  /* no inherited */
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 3px black;
+}
+a {
+  box-shadow: inherit;
+}
