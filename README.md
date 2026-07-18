@@ -1,155 +1,93 @@
-# HTML & CSS Learning Path
+# HTML & CSS Practice Repository
 
-A complete roadmap from beginner to advanced, plus 15 real-world project ideas to build professional skills.
+This folder contains a hands-on collection of HTML and CSS examples for learning front-end development step by step. It includes beginner practice files, layout exercises, responsive design examples, and small practice pages. Any larger projects you build are kept in separate repositories. You can check it out on my github
 
-## 1. Beginner: Foundations
+## What this repository covers
 
-### HTML Essentials
-- Structure of a web page: `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`
-- Common semantic tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
-- Content tags: headings, paragraphs, lists, links, images, tables
-- Forms and inputs: `<form>`, `<input>`, `<button>`, `<select>`, `<textarea>`
-- Media embedding: `<img>`, `<audio>`, `<video>`, `<iframe>`
-- Attributes: `class`, `id`, `href`, `src`, `alt`, `title`
+### HTML fundamentals
 
-### CSS Basics
-- How to include CSS: inline, internal, external stylesheets
-- Selectors: element, class, id, group, descendant
-- Properties: `color`, `background`, `font-size`, `font-family`, `margin`, `padding`, `border`
-- Box model: content, padding, border, margin
-- Display types: `block`, `inline`, `inline-block`, `none`
-- Text formatting and basic layout
-- CSS units: `px`, `em`, `rem`, `%`, `vw`, `vh`
+- Basic page structure with elements such as headings, paragraphs, lists, links, images, and tables
+- Semantic HTML examples for better document structure
+- Form and media examples
+- A small multi-page example with [about.html](about.html) and [project.html](project.html)
 
-## 2. Intermediate: Layout and Responsive Design
+### CSS fundamentals
 
-### HTML Improvements
-- Better semantic structure for accessibility
-- Using forms with validations and placeholders
-- Embedding icons and fonts
-- Building reusable sections with semantic markup
+- Inline, internal, and external styling
+- Selectors, classes, IDs, and basic combinators
+- Box model, borders, spacing, typography, and units
+- Colors, backgrounds, inheritance, and CSS variables
 
-### CSS Layout
-- Positioning: `static`, `relative`, `absolute`, `fixed`, `sticky`
-- Flexbox: direction, alignment, wrapping, spacing
-- CSS Grid: grid container, rows, columns, gaps, areas
-- Responsive design with media queries
-- Mobile-first workflows
-- Transitions and simple animations
-- CSS variables for theme and consistency
+### Layout and responsive design
 
-### Styling Best Practices
-- Typography: line-height, letter-spacing, font stacks
-- Color systems and contrast for readability
-- Hover and focus states for interaction
-- Form styling and custom controls
-- Utility classes and modular CSS patterns
+- Positioning with static, relative, absolute, and fixed layouts
+- Flexbox and CSS Grid examples
+- Media queries for responsive behavior
+- Transitions, animations, shadows, and pseudo-elements
 
-## 3. Advanced: Professional Front-End Skills
+## Main files in this folder
 
-### Advanced HTML
-- Accessibility: ARIA roles, labels, landmarks, keyboard support
-- Progressive enhancement and graceful degradation
-- SEO-friendly markup, meta tags, structured data basics
-- Integrating SVG and icon systems
+### Core HTML examples
 
-### Advanced CSS
-- Advanced selectors: attribute selectors, pseudo-classes, pseudo-elements
-- CSS custom properties and fallback values
-- CSS calculations with `calc()` and responsive sizing
-- Advanced animations and keyframes
-- CSS functions: `clamp()`, `min()`, `max()`, `var()`
-- Feature queries: `@supports`
-- CSS architecture: BEM, SMACSS, atomic/utility-first approaches
-- Scoped styling with custom classes and component patterns
-- Print styling and multi-column layouts
+- [index.html](index.html) — basic CSS example with inline, internal, and external styles
+- [headings.html](headings.html)
+- [paragraph.html](paragraph.html)
+- [list.html](list.html)
+- [semantics.html](semantics.html)
+- [tables.html](tables.html)
+- [forms.html](forms.html)
+- [img.html](img.html)
+- [typography.html](typography.html)
+- [units.html](units.html)
 
-### Workflow & Tooling
-- Using browser developer tools to inspect and debug styles
-- Working with version control (Git) for HTML/CSS projects
-- Code organization with partials and components
-- Building style guides and component libraries
+### Core CSS files
 
-## 4. 15 Professional HTML/CSS Projects
+- [style.css](style.css)
+- [selectors.css](selectors.css)
+- [unitsStyle.css](unitsStyle.css)
+- [variables.css](variables.css)
+- [box_model.css](box_model.css)
+- [display.css](display.css)
+- [positions.css](positions.css)
+- [inheritence.css](inheritence.css)
+- [dry.css](dry.css)
+- [calc.css](calc.css)
+- [bg.css](bg.css)
+- [beforeafter.css](beforeafter.css)
+- [shadow.css](shadow.css)
+- [is.css](is.css)
+- [not.css](not.css)
+- [nu.css](nu.css)
 
-1. **Personal Portfolio Website**
-   - Responsive hero section, project gallery, contact form, and about section.
-   - Skills: layout, typography, responsive design, visuals.
+### Layout and advanced practice
 
-2. **Marketing Landing Page**
-   - Clean single-page design with call-to-action, features, testimonials, pricing.
-   - Skills: visual hierarchy, spacing, conversion-focused layout.
+- [flexbox.html](flexbox.html) and [flexbox.css](flexbox.css)
+- [grid.html](grid.html) and [grid.css](grid.css)
+- [mediaqueries.html](mediaqueries.html) and [mediaqueries.css](mediaqueries.css)
+- [transformationsitionanimation.html](transformationsitionanimation.html) and [transformationsitionanimation.css](transformationsitionanimation.css)
 
-3. **Agency or Studio Website**
-   - Multi-section homepage plus services and portfolio previews.
-   - Skills: grid layouts, animations, advanced typography.
+### Assets used in examples
 
-4. **E-commerce Product Page**
-   - Product gallery, detail tabs, related items, responsive product information.
-   - Skills: card design, responsive components, image layout.
+- [city.jpg](city.jpg)
+- [waterfall.jpg](waterfall.jpg)
+- [my-affirm-img.webp](my-affirm-img.webp)
+- [Logo-Discord--Streamline-Pixel.svg](Logo-Discord--Streamline-Pixel.svg)
+- [coding.mp4](coding.mp4)
+- [meeting.mp3](meeting.mp3)
 
-5. **Blog / News Layout**
-   - Articles list, featured posts, sidebar, category filtering UI.
-   - Skills: typographic systems, media lists, layout consistency.
+## Suggested learning order
 
-6. **Dashboard Interface**
-   - Cards, charts placeholders, navigation sidebar, data table styling.
-   - Skills: modular layout, component spacing, dashboard UX.
+1. Start with the basic HTML files and understand page structure.
+2. Practice CSS selectors, colors, typography, and the box model.
+3. Learn layout with flexbox and grid.
+4. Add responsiveness using media queries.
+5. Explore advanced styling techniques such as pseudo-elements, transitions, and animations.
 
-7. **Interactive Pricing Table**
-   - Compare plans with highlight states, toggles, and mobile layout.
-   - Skills: responsive tables, state styling, accessibility.
+## How to use this repository
 
-8. **Web App Landing Page**
-   - Feature sections, app screenshot mockups, testimonial carousel.
-   - Skills: hero design, multi-column responsive layout, branding.
+- Open [index.html](index.html) first to see a simple introduction to CSS.
+- Open each lesson file one by one and compare the HTML with its matching CSS.
+- Experiment by editing the styles and observing the results in the browser.
+- Use the example pages as a base for building your own small web pages.
 
-9. **Restaurant Website**
-   - Menu display, reservation CTA, location section, gallery.
-   - Skills: grid-based menus, cards, image overlays.
-
-10. **Photography Portfolio**
-    - Masonry-style gallery, lightbox effect, minimal layout.
-    - Skills: image grids, custom hover effects, responsive galleries.
-
-11. **SaaS Pricing & Feature Page**
-    - Sections for benefits, comparisons, signup CTA, FAQ.
-    - Skills: interface consistency, visual emphasis, spacing systems.
-
-12. **Event / Conference Page**
-    - Agenda, speaker profiles, ticket options, venue details.
-    - Skills: section organization, timeline layouts, visual rhythm.
-
-13. **Product Launch Page**
-    - Countdown component, feature highlights, newsletter signup.
-    - Skills: animation, component styling, interaction.
-
-14. **Admin Panel / Settings Page**
-    - Form layout, cards, navigation tabs, action buttons.
-    - Skills: form UX, grid alignment, responsive admin UI.
-
-15. **Real Estate Listing Page**
-    - Property cards, search filters, image slider mockup.
-    - Skills: cards, filters, responsive property gallery.
-
-## 5. How to Use This Guide
-
-- Start with the beginner section and build simple pages.
-- Practice one topic at a time and recreate small examples.
-- Choose 3-5 projects from the list, then build them from scratch.
-- Refine each project by improving responsiveness, accessibility, and polish.
-- Use version control and document your progress.
-
-## 6. Suggested Learning Sequence
-
-1. Build a static homepage with header, content sections, and footer.
-2. Style a blog article layout with typography and spacing.
-3. Create a responsive navigation bar and hero section.
-4. Make a product card grid and gallery.
-5. Build a full portfolio page and review it for mobile.
-6. Add animations, hover effects, and custom CSS variables.
-7. Try an advanced project like dashboard or marketing page.
-
----
-
-> This guide is designed to help you go from basic HTML/CSS skills to professional website layouts and real-world UI components.
+This repository is best used as a practical study folder where each file teaches one or two concepts at a time.
