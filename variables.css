@@ -1,0 +1,20 @@
+:root {
+  --electric-red: rgb(255, 7, 94);
+  --my-pad: 20px;
+  --my-font: 2rem;
+  --babypink: hotpink;
+  --mydisplay: inline-block;
+  --mybord: 2px solid black;
+}
+h1 {
+  display: var(--mydisplay);
+  border: var(--mybord);
+  color: var(--electric-red);
+  padding: var(--my-pad);
+}
+h2 {
+  padding: var(--my-pad);
+  display: var(--mydisplay);
+  font-size: var(--my-font);
+  background-color: var(--babypink);
+}
