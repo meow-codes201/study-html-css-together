@@ -1,0 +1,31 @@
+body {
+  background-color: hotpink;
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 2rem;
+    text-decoration: underline;
+    background-color: darkseagreen;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    background: linear-gradient(135deg, indigo, plum);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: oldlace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    text-shadow: 5px -3px 3px rgba(211, 211, 211, 0.463);
+  }
+}
