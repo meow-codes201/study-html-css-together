@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(20, 3, 207, 0.893), rgb(0, 0, 0));
+  color: white;
+}
+p {
+  font-size: 4rem;
+}
+p::before {
+  content: "🐎 Hello, 👋🏻🍓";
+  color: rgb(255, 7, 94);
+}
+p::after {
+  content: ". Thank You!🍉";
+  color: crimson;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 5px -5px 2px lightgray;
+}
