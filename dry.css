@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* width: 100vh; */
+}
+/* BAD WET */
+/* .wa .btn {
+  background: transparent;
+  border: none;
+  margin: 10px;
+  background-color: slateblue;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.two .btn {
+  background: transparent;
+  border: none;
+  margin: 10px;
+  background-color: slateblue;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-skip-ink: all;
+} */
+
+/* DRY */
+.btn {
+  background: transparent;
+  border: none;
+  margin: 10px;
+  background-color: slateblue;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.two .btn {
+  text-decoration: underline;
+  text-decoration-skip-ink: all;
+}
