@@ -1,0 +1,74 @@
+.ctr {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .ctr > div {
+  width: 300px;
+  height: 300px;
+  background-color: turquoise;
+  transition: all 0.5s ease; */
+
+/* transform: translateY(-200px); */
+/* } */
+
+/* .ctr > div:hover { */
+/* transform: translate(200px, 100px); */
+/* transform: rotate(60deg); */
+/* transform: scale(0.5); */
+/* scale between 0 and any number */
+/* transform: scale(2, 1); */
+
+/* transform: skew(-30deg); */
+/* } */
+/* 
+.ctr > div {
+  background: linear-gradient(135deg, hotpink, thistle);
+  transition: all 0.8s ease-out;
+  border-radius: 20px;
+  border: none;
+  border: 2px solid rgb(111, 12, 160);
+}
+
+.ctr > div:hover {
+  transform: translate(30px, -10px);
+  background: linear-gradient(135deg, purple, hotpink);
+} */
+.ctr > div {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(135deg, blue, black);
+  /* ANIMATION */
+  animation-name: inOut;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease;
+}
+
+@keyframes inOut {
+  0% {
+    transform: scale(2);
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  30% {
+    transform: rotate(60deg);
+  }
+  40% {
+    transform: skew(10deg);
+  }
+  50% {
+    transform: skew(-10deg);
+  }
+  60% {
+    background: linear-gradient(135deg, black, blue);
+    transform: rotate(-40deg);
+    border-radius: 25%;
+  }
+  80% {
+    box-shadow: 15px 15px 2px 5px black;
+  }
+}
