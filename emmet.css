@@ -1,0 +1,12 @@
+section {
+  /* p20rem */
+  padding: 20rem;
+  /* bgc */
+  background-color: #fff;
+  /* bgimg  */
+  background-image: none;
+  /* df  */
+  display: flex;
+  /* curpo  */
+  cursor: pointer;
+}
